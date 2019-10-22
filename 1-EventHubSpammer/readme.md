@@ -2,8 +2,8 @@
 
 This is the code sample related to [this](https://medium.com/@pugillum/the-azure-function-connection-limit-with-dependency-injection-c52982199cf1) blog post.  
 
-EventHubSpammer-Before: Contains the code that will create a new EventHubClient for each call the Azure Event Hub, hitting the 600 connection limit
-EventHubSpammer-After: Implements the reuse of the EventHubClient through the use of abstraction and Singleton service lifetime.
+- EventHubSpammer-Before: Contains the code that will create a new EventHubClient for each call the Azure Event Hub, hitting the 600 connection limit
+- EventHubSpammer-After: Implements the reuse of the EventHubClient through the use of abstraction and Singleton service lifetime.
 
 If you'd like to test it out, you'll need to do the following:
 1. Create an Azure Event Hub service and copy the connection string
