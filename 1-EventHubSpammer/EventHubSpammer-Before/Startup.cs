@@ -4,8 +4,8 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-[assembly: FunctionsStartup(typeof(ConnectionLimitFunctionApp.Startup))]
-namespace ConnectionLimitFunctionApp
+[assembly: FunctionsStartup(typeof(EventHubSpammer.Startup))]
+namespace EventHubSpammer
 {
     public class Startup : FunctionsStartup
     {

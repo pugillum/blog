@@ -8,13 +8,13 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 
-namespace ConnectionLimitFunctionApp
+namespace EventHubSpammer
 {
-    public class EventHubSpammer
+    public class EventHubSpammerFunction
     {
         private ISpecificEventHubService _eventHubService;
 
-        public EventHubSpammer(ISpecificEventHubService eventHubService)
+        public EventHubSpammerFunction(ISpecificEventHubService eventHubService)
         {
             _eventHubService = eventHubService ?? throw new ArgumentNullException(nameof(eventHubService));
         }

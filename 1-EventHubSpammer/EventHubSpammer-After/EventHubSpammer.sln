@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29411.108
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectionLimitFunctionApp", "ConnectionLimitFunctionApp.csproj", "{FE1CCFAC-A8E2-4B61-AAB0-1A23FB9F6951}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHubSpammer", "EventHubSpammer.csproj", "{FE1CCFAC-A8E2-4B61-AAB0-1A23FB9F6951}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
